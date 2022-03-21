@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\MedasGardening.csproj",
+  "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\MedasGardening.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,63 +15619,63 @@
   "RootNamespace": "MedasGardening",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Gardens\\Details.cshtml",
-      "TargetPath": "Pages\\Gardens\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Gardens\\Edit.cshtml",
-      "TargetPath": "Pages\\Gardens\\Edit.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Gardens\\Index.cshtml",
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Gardens\\Index.cshtml",
       "TargetPath": "Pages\\Gardens\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Gardens\\Delete.cshtml",
-      "TargetPath": "Pages\\Gardens\\Delete.cshtml",
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\_ViewStart.cshtml",
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Gardens\\Create.cshtml",
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Gardens\\Edit.cshtml",
+      "TargetPath": "Pages\\Gardens\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Shared\\_Layout.cshtml",
+      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Gardens\\Delete.cshtml",
+      "TargetPath": "Pages\\Gardens\\Delete.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Gardens\\Create.cshtml",
       "TargetPath": "Pages\\Gardens\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Mo_Ed_WEB120_assign\\Monica_eda_WEB315Assignments\\RazorPagesMedasGardening\\Pages\\Gardens\\Details.cshtml",
+      "TargetPath": "Pages\\Gardens\\Details.cshtml",
       "FileKind": "mvc"
     }
   ],
