@@ -1,0 +1,30 @@
+﻿@page "/GroceryStore"
+<h3>GroceryStore</h3>
+<input placeholder="Search" @bind="newGroceryStore" />
+<button @onclick="AddGroceryStore">Add GroceryStore</button>
+
+<ul>
+    @foreach (var GroceryStore in GroceryStoreList)
+    {
+        <li>@GroceryStore.Title</li>
+    }
+</ul>
+
+
+@code {
+    private List<FoodItem> GroceryStoreList = new();
+        private String newGroceryStore; 
+     private void AddGroceryStore()
+     {
+        if (!string.IsNullOrWhiteSpace(newGroceryStore))
+        {
+            GroceryStoreList.Add(new FoodItem { Title = newGroceryStore });
+            newGroceryStore = string.Empty;
+        }
+    }
+    
+    
+        
+}
+
+
