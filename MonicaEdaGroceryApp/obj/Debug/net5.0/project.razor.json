@@ -98,39 +98,6 @@
         }
       },
       {
-        "HashCode": 80341906,
-        "Kind": "Components.Component",
-        "Name": "MonicaEdaGroceryApp.Pages.GroceryStore",
-        "AssemblyName": "MonicaEdaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "GroceryStore"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MonicaEdaGroceryApp.Pages.GroceryStore"
-        }
-      },
-      {
-        "HashCode": -2132074498,
-        "Kind": "Components.Component",
-        "Name": "MonicaEdaGroceryApp.Pages.GroceryStore",
-        "AssemblyName": "MonicaEdaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MonicaEdaGroceryApp.Pages.GroceryStore"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MonicaEdaGroceryApp.Pages.GroceryStore",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 355426303,
         "Kind": "Components.Component",
         "Name": "MonicaEdaGroceryApp.Pages.Index",
@@ -164,6 +131,39 @@
         }
       },
       {
+        "HashCode": 80341906,
+        "Kind": "Components.Component",
+        "Name": "MonicaEdaGroceryApp.Pages.GroceryStore",
+        "AssemblyName": "MonicaEdaGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "GroceryStore"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MonicaEdaGroceryApp.Pages.GroceryStore"
+        }
+      },
+      {
+        "HashCode": -2132074498,
+        "Kind": "Components.Component",
+        "Name": "MonicaEdaGroceryApp.Pages.GroceryStore",
+        "AssemblyName": "MonicaEdaGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MonicaEdaGroceryApp.Pages.GroceryStore"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MonicaEdaGroceryApp.Pages.GroceryStore",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -2103161255,
         "Kind": "Components.Component",
         "Name": "MonicaEdaGroceryApp.App",
@@ -193,59 +193,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MonicaEdaGroceryApp.App",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -2026943855,
-        "Kind": "Components.Component",
-        "Name": "MonicaEdaGroceryApp.Shared.SurveyPrompt",
-        "AssemblyName": "MonicaEdaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MonicaEdaGroceryApp.Shared.SurveyPrompt"
-        }
-      },
-      {
-        "HashCode": -73384437,
-        "Kind": "Components.Component",
-        "Name": "MonicaEdaGroceryApp.Shared.SurveyPrompt",
-        "AssemblyName": "MonicaEdaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MonicaEdaGroceryApp.Shared.SurveyPrompt"
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Title",
-            "TypeName": "System.String",
-            "Metadata": {
-              "Common.PropertyName": "Title"
-            }
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MonicaEdaGroceryApp.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -375,6 +322,59 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MonicaEdaGroceryApp.Shared.NavMenu",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": -2026943855,
+        "Kind": "Components.Component",
+        "Name": "MonicaEdaGroceryApp.Shared.SurveyPrompt",
+        "AssemblyName": "MonicaEdaGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MonicaEdaGroceryApp.Shared.SurveyPrompt"
+        }
+      },
+      {
+        "HashCode": -73384437,
+        "Kind": "Components.Component",
+        "Name": "MonicaEdaGroceryApp.Shared.SurveyPrompt",
+        "AssemblyName": "MonicaEdaGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MonicaEdaGroceryApp.Shared.SurveyPrompt"
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Title",
+            "TypeName": "System.String",
+            "Metadata": {
+              "Common.PropertyName": "Title"
+            }
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MonicaEdaGroceryApp.Shared.SurveyPrompt",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

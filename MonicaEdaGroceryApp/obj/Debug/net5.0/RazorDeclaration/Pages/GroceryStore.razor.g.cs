@@ -91,17 +91,25 @@ using MonicaEdaGroceryApp.Shared;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 14 "C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaGroceryApp\Pages\GroceryStore.razor"
+#line 22 "C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaGroceryApp\Pages\GroceryStore.razor"
        
     private List<FoodItem> GroceryStoreList = new();
-        private String newGroceryStore; 
-     private void AddGroceryStore()
+    private String newGroceryStore; 
+    private void AddGroceryStore()
      {
+         FoodItem newItem;
         if (!string.IsNullOrWhiteSpace(newGroceryStore))
         {
             GroceryStoreList.Add(new FoodItem { Title = newGroceryStore });
-            newGroceryStore = string.Empty;
+            newGroceryStore = ""; //string.Empty;
         }
+        //GroceryStore:Add the GroceryStore
+    } 
+
+    //this is a long version of the lamda method inside of the todoList.Count
+    private bool GroceryStoreIsDone(FoodItem singleFoodItem )
+    {
+        return !singleFoodItem.IsDone;
     }
     
     
