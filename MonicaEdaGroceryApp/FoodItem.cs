@@ -1,6 +1,6 @@
 public class FoodItem
 {
-    public string FoodName { get; set; }
+    public string Title { get; set; }
     
     public int quantity { get; set; }
   
@@ -15,6 +15,7 @@ public class FoodItem
   }
 
     public void DecreaseQuantity()
+    
     {
          if(quantity>0)
       quantity=quantity-1;

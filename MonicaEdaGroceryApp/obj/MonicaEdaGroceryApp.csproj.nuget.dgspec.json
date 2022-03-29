@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaGroceryApp\\MonicaEdaGroceryApp.csproj": {}
+    "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaGroceryAPP\\MonicaEdaGroceryApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaGroceryApp\\MonicaEdaGroceryApp.csproj": {
+    "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaGroceryAPP\\MonicaEdaGroceryApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaGroceryApp\\MonicaEdaGroceryApp.csproj",
+        "projectUniqueName": "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaGroceryAPP\\MonicaEdaGroceryApp.csproj",
         "projectName": "MonicaEdaGroceryApp",
-        "projectPath": "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaGroceryApp\\MonicaEdaGroceryApp.csproj",
+        "projectPath": "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaGroceryAPP\\MonicaEdaGroceryApp.csproj",
         "packagesPath": "C:\\Users\\edamo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaGroceryApp\\obj\\",
+        "outputPath": "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaGroceryAPP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edamo\\AppData\\Roaming\\NuGet\\NuGet.Config"
