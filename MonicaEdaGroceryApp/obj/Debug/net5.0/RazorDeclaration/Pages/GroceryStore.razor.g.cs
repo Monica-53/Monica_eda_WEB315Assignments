@@ -8,6 +8,7 @@ namespace MonicaEdaGroceryApp.Pages
 {
     #line hidden
     using System;
+    using System.Collections.Generic;
     using System.Linq;
     using System.Threading.Tasks;
     using Microsoft.AspNetCore.Components;
@@ -81,13 +82,7 @@ using MonicaEdaGroceryApp.Shared;
 #line default
 #line hidden
 #nullable disable
-#nullable restore
-#line 7 "C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaGroceryApp\Pages\GroceryStore.razor"
-using System.Collections.Generic;
-
-#line default
-#line hidden
-#nullable disable
+    [Microsoft.AspNetCore.Components.RouteAttribute("/groceryStore")]
     public partial class GroceryStore : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
@@ -96,64 +91,102 @@ using System.Collections.Generic;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 11 "C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaGroceryApp\Pages\GroceryStore.razor"
-      
-    public List<GroceryAisle> groceryAisles = new List<GroceryAisle>{
-        new GroceryAisle(){
-            id = 1,
+#line 46 "C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaGroceryApp\Pages\GroceryStore.razor"
+       
+    private List<GroceryIsle>isles=new();
+    private String newGroceryIsle; 
+    private List <FoodItem> anotherList = new();
+    private void AddGroceryIsle()
+     {
+         
+
+
+         
+        if (!string.IsNullOrWhiteSpace(newGroceryIsle)) //does the new GroceryStore contain a value?
+        {
+            //if it does, we add it to the list
+           new GroceryIsle(){
+            Id = 1,
             name = "Frozen Food",
             items = new List<FoodItem>{
                 new FoodItem(){
-                    //property 1,
-                    //property 2,
-                    //property 3,
-                    //property 4
+                    name = "PIzza", 
+                    quantity=2,
+                    price= 7.29,
+                    brand= "Ristorante"
                 },
                 new FoodItem(){
-                    //property 1,
-                    //property 2,
-                    //property 3,
-                    //property 4
+                    name = "Macaroni and Cheese", 
+                     quantity=2,
+                     price= 2.22,
+                     brand= "Great Value" 
                 }
             }
-        },
-        new GroceryAisle(){
-            id = 2,
-            name = "Canned Food",
+        };
+
+
+        new GroceryIsle(){
+            Id = 2,
+            name = "Canned Food ",
             items = new List<FoodItem>{
                 new FoodItem(){
-                    //property 1,
-                    //property 2,
-                    //property 3,
-                    //property 4
+                    name = "Tuna", 
+                    quantity=2,
+                    price= 2.00,
+                    brand= "Rissoto"
                 },
                 new FoodItem(){
-                    //property 1,
-                    //property 2,
-                    //property 3,
-                    //property 4
+                    name = "Tomato Paste", 
+                     quantity=2,
+                     price= 2.00,
+                     brand= "Rissoto" 
                 }
             }
-        },
-        new GroceryAisle(){
-            id = 3,
-            name = "Dry Food",
+
+        
+            };
+
+            new GroceryIsle(){
+            Id = 3,
+            name = "Cereals",
             items = new List<FoodItem>{
                 new FoodItem(){
-                    //property 1,
-                    //property 2,
-                    //property 3,
-                    //property 4
+                    name = "Crispy Rice", 
+                    quantity=2,
+                    price= 2.97,
+                    brand= "Great value"
                 },
                 new FoodItem(){
-                    //property 1,
-                    //property 2,
-                    //property 3,
-                    //property 4
+                    name = "Honey Comb", 
+                     quantity=2,
+                     price= 4.00,
+                     brand= "Post" 
                 }
             }
-        },
-    };
+
+        
+            
+
+
+              
+            };
+
+
+
+
+             
+           
+
+
+            
+        }
+
+        //GroceryStore: Add the fooditem
+     }
+
+                  
+
+            
 
 #line default
 #line hidden
