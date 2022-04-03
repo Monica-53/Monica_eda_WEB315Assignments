@@ -1,10 +1,12 @@
+namespace MonicaEdaGroceryApp
+{
 public class FoodItem
 {
-    public string Title { get; set; }
+    public string name{ get; set; }
     
     public int quantity { get; set; }
   
-    public string price { get; set; }
+    public double price { get; set; }
     public string brand { get; set; }
     public bool IsDone { get; set; }
 
@@ -23,6 +25,8 @@ public class FoodItem
 
 
   }
+
+}
 
 
 

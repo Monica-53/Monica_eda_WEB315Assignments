@@ -1,48 +1,141 @@
-﻿@page "/GroceryStore"
-<h3>GroceryStore(@GroceryStoreList.Count(singleTodoItem => !singleTodoItem.IsDone))</h3>
-<input placeholder="Search" @bind="newGroceryStore" />
-<button @onclick="AddGroceryStore">Add GroceryStore</button>
+﻿@page "/GroceryIsle"
+@page "/FoodItem"
 
-<ul>
-    @foreach (var GroceryStore in GroceryStoreList)
+@page "/groceryStore"
+<h3>GroceryStore(@newGroceryIsle)</h3>
+<input placeholder="Search" @bind="newGroceryIsle" />
+<button class="btn btn-primary" @onclick="AddGroceryIsle">Add GroceryStore</button>
+
+<ul>Store
+    @foreach (var grocerystore in newGroceryIsle )
     {
-        @if (!GroceryStore.IsDone) // only show the item if we haven't finished it
-        {
+       
             <li>
-                <input type = "checkbox" @bind="GroceryStore.IsDone" />
-                <input @bind ="GroceryStore.Title" />
-                
+                <input type = "checkbox" @bind="newGroceryIsle" />
+                <input @bind ="newGroceryIsle" />
+                <div>@newGroceryIsle.</div>
+ 
+                 </li>
 
-                </li>
+
 
         }
      }
     
 </ul>
+<ul>
+    @foreach(var GroceryStore in newGroceryIsle )
+    {
+   //only show the item if we haven't finished it
+        
+            <li>
+                <input type = "checkbox" @bind="GroceryStore" />
+                <input @bind="GroceryStore" />
+                <div>@GroceryStore.</div>
+                
+            
+            
+            </li>
+        }
+    }
+</ul>
 
 
 @code {
-    private List<FoodItem> GroceryStoreList = new();
-    private String newGroceryStore; 
-    private void AddGroceryStore()
+    private List<GroceryIsle>isles=new();
+
+
+    private String newGroceryIsle; 
+    private List <FoodItem> anotherList = new();
+    private void AddGroceryIsle()
      {
+         FoodItem newItem; //if we end up making a new item, we want to store it here
+
+
          
-        if (!string.IsNullOrWhiteSpace(newGroceryStore))
+        if (!string.IsNullOrWhiteSpace(newGroceryIsle)) //does the new GroceryStore contain a value?
         {
-            GroceryStoreList.Add(new FoodItem { Title = newGroceryStore });
-            newGroceryStore = ""; //string.Empty;
-        }
-        //GroceryStore:Add the GroceryStore
-    } 
-
-    //this is a long version of the lamda method inside of the todoList.Count
-    private bool GroceryStoreIsDone(FoodItem singleFoodItem )
-    {
-        return !singleFoodItem.IsDone;
-    }
-    
-    
+            //if it does, we add it to the list
+            newGroceryIsle = "CannedFood"; //string Empty;
+            newItem = new FoodItem
+            {
+                name ="Tuna",
+                quantity = 3,
+                 brand ="Genova",
+                 price= 6.00
+              
+            };
         
-}
+        
+                newItem = new FoodItem
+            {
+                name ="Peas",
+                quantity = 3,
+                 brand ="Noname",
+                 price= 6.00
+              
+            };
+
+        
+            newGroceryIsle = "cereals"; //string Empty;
+                newItem = new FoodItem
+            {
+                name ="corn flakes",
+                quantity = 2,
+                brand ="Kellogg",
+                price= 10.00
 
 
+              
+            };
+
+              newItem = new FoodItem
+           
+             {
+                
+                name ="Cheerios",
+                quantity = 3,
+                brand ="Generalmills",
+                price= 15.00
+
+                
+              
+            };
+
+            newGroceryIsle = "FrozenFood"; //string Empty;
+            newItem = new FoodItem
+            {
+                name ="Pizza",
+                quantity = 2,
+                 brand ="Rissoto",
+                 price= 10.00
+              
+            };
+        
+        
+                newItem = new FoodItem
+            {
+                name ="",
+                quantity = 3,
+                 brand ="Noname",
+                 price= 6.00
+              
+            };
+            
+        }
+
+        //GroceryStore: Add the fooditem
+     }
+
+                  
+
+            };
+
+
+ 
+
+
+
+
+
+        

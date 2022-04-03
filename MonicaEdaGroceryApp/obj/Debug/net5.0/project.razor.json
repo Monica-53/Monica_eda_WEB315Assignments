@@ -98,39 +98,6 @@
         }
       },
       {
-        "HashCode": 80341906,
-        "Kind": "Components.Component",
-        "Name": "MonicaEdaGroceryApp.Pages.GroceryStore",
-        "AssemblyName": "MonicaEdaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "GroceryStore"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MonicaEdaGroceryApp.Pages.GroceryStore"
-        }
-      },
-      {
-        "HashCode": -2132074498,
-        "Kind": "Components.Component",
-        "Name": "MonicaEdaGroceryApp.Pages.GroceryStore",
-        "AssemblyName": "MonicaEdaGroceryApp",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MonicaEdaGroceryApp.Pages.GroceryStore"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MonicaEdaGroceryApp.Pages.GroceryStore",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
         "HashCode": 355426303,
         "Kind": "Components.Component",
         "Name": "MonicaEdaGroceryApp.Pages.Index",
@@ -160,6 +127,39 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MonicaEdaGroceryApp.Pages.Index",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "HashCode": 80341906,
+        "Kind": "Components.Component",
+        "Name": "MonicaEdaGroceryApp.Pages.GroceryStore",
+        "AssemblyName": "MonicaEdaGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "GroceryStore"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MonicaEdaGroceryApp.Pages.GroceryStore"
+        }
+      },
+      {
+        "HashCode": -2132074498,
+        "Kind": "Components.Component",
+        "Name": "MonicaEdaGroceryApp.Pages.GroceryStore",
+        "AssemblyName": "MonicaEdaGroceryApp",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MonicaEdaGroceryApp.Pages.GroceryStore"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MonicaEdaGroceryApp.Pages.GroceryStore",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

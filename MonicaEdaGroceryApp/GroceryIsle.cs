@@ -1,12 +1,14 @@
-
+namespace MonicaEdaGroceryApp
+{
 
 public class GroceryIsle
 {
     
-    public string cannedGoodsAisle { get; set; }
+    public string name { get; set; }
    
-    public string frozenfoodsAisle { get; set; }
+    public int Id { get; set; }
 
-    public string CerealsAisle { get; set; }
+    public string FoodItems { get; set; }
     
+}
 }
