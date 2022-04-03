@@ -1,134 +1,74 @@
-﻿@page "/groceryStore"
-<h3>GroceryStore(@newGroceryIsle)</h3>
-<input placeholder="Search" @bind="newGroceryIsle" />
-<button class="btn btn-primary" @onclick="AddGroceryIsle">Add GroceryStore</button>
-
-<ul>Store
-    @foreach (var grocerystore in newGroceryIsle )
-    {
-        
-    
-       
-            <li>
-                <input type = "checkbox" @bind="newGroceryIsle" />
-                <input @bind ="newGroceryIsle" />
-                <div>@newGroceryIsle.</div>
- 
-                 </li>
+﻿
 
 
 
-        }
-     }
-    
-</ul>
-<ul>
-    @foreach(var GroceryStore in newGroceryIsle )
-    {
-   //only show the item if we haven't finished it
-        
-            <li>
-                <input type = "checkbox" @bind="GroceryStore" />
-                <input @bind="GroceryStore" />
-                <div>@GroceryStore.</div>
-                
-            
-            
-            </li>
-        }
-    }
-</ul>
 
 
-@code {
-    private List<GroceryIsle>isles=new();
+            @using System.Collections.Generic;
 
+<h1>Grocery Store</h1>
 
-    private String newGroceryIsle; 
-    private List <FoodItem> anotherList = new();
-    private void AddGroceryIsle()
-     {
-         FoodItem newItem; //if we end up making a new item, we want to store it here
+@code{
+    public List<GroceryAisle> groceryAisles = new List<GroceryAisle>{
+        new GroceryAisle(){
+            id = 1,
+            name = "Frozen Food",
+            items = new List<FoodItem>{
+                new FoodItem(){
+                    //property 1,
+                    //property 2,
+                    //property 3,
+                    //property 4
+                },
+                new FoodItem(){
+                    //property 1,
+                    //property 2,
+                    //property 3,
+                    //property 4
+                }
+            }
+        },
+        new GroceryAisle(){
+            id = 2,
+            name = "Canned Food",
+            items = new List<FoodItem>{
+                new FoodItem(){
+                    //property 1,
+                    //property 2,
+                    //property 3,
+                    //property 4
+                },
+                new FoodItem(){
+                    //property 1,
+                    //property 2,
+                    //property 3,
+                    //property 4
+                }
+            }
+        },
+        new GroceryAisle(){
+            id = 3,
+            name = "Dry Food",
+            items = new List<FoodItem>{
+                new FoodItem(){
+                    //property 1,
+                    //property 2,
+                    //property 3,
+                    //property 4
+                },
+                new FoodItem(){
+                    //property 1,
+                    //property 2,
+                    //property 3,
+                    //property 4
+                }
+            }
+        },
+    };
+}
 
-
-         
-        if (!string.IsNullOrWhiteSpace(newGroceryIsle)) //does the new GroceryStore contain a value?
-        {
-            //if it does, we add it to the list
-            newGroceryIsle = "CannedFood"; //string Empty;
-            newItem = new FoodItem
-            {
-                name ="Tuna",
-                quantity = 3,
-                 brand ="Genova",
-                 price= 6.00
-              
-            };
-        
-        
-                newItem = new FoodItem
-            {
-                name ="Peas",
-                quantity = 3,
-                 brand ="Noname",
-                 price= 6.00
-              
-            };
-
-        
-            newGroceryIsle = "cereals"; //string Empty;
-                newItem = new FoodItem
-            {
-                name ="corn flakes",
-                quantity = 2,
-                brand ="Kellogg",
-                price= 10.00
-
-
-              
-            };
-
-              newItem = new FoodItem
            
-             {
-                
-                name ="Cheerios",
-                quantity = 3,
-                brand ="Generalmills",
-                price= 15.00
-
-                
-              
-            };
-
-            newGroceryIsle = "FrozenFood"; //string Empty;
-            newItem = new FoodItem
-            {
-                name ="Pizza",
-                quantity = 2,
-                 brand ="Rissoto",
-                 price= 10.00
-              
-            };
-        
-        
-                newItem = new FoodItem
-            {
-                name ="",
-                quantity = 3,
-                 brand ="Noname",
-                 price= 6.00
-              
-            };
-            
-        }
-
-        //GroceryStore: Add the fooditem
-     }
-
-                  
-
-            };
+    
 
 
  
