@@ -1,13 +1,15 @@
+using System;
 
+using System.Collections.Generic;
 
 public class GroceryIsle
 {
     
-    public string name { get; set; }
+    public string name;
    
-    public int Id { get; set; }
+    public int Id; 
 
-    public string FoodItems { get; set; }
+    public List<FoodItem> items; 
     
 }
 
