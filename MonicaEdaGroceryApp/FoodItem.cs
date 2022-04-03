@@ -1,5 +1,4 @@
-namespace MonicaEdaGroceryApp
-{
+
 public class FoodItem
 {
     public string name{ get; set; }
@@ -26,7 +25,6 @@ public class FoodItem
 
   }
 
-}
 
 
 
