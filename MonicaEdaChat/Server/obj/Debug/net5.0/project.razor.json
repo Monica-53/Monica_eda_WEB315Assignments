@@ -3960,9 +3960,9 @@
         }
       },
       {
-        "HashCode": -164987428,
+        "HashCode": -179691993,
         "Kind": "Components.Component",
-        "Name": "MonicaEdaChat.Client.Chat",
+        "Name": "MonicaEdaChat.Client.Pages.Chat",
         "AssemblyName": "MonicaEdaChat.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
@@ -3972,23 +3972,23 @@
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MonicaEdaChat.Client.Chat"
+          "Common.TypeName": "MonicaEdaChat.Client.Pages.Chat"
         }
       },
       {
-        "HashCode": -234249983,
+        "HashCode": -877153983,
         "Kind": "Components.Component",
-        "Name": "MonicaEdaChat.Client.Chat",
+        "Name": "MonicaEdaChat.Client.Pages.Chat",
         "AssemblyName": "MonicaEdaChat.Client",
         "CaseSensitive": true,
         "TagMatchingRules": [
           {
-            "TagName": "MonicaEdaChat.Client.Chat"
+            "TagName": "MonicaEdaChat.Client.Pages.Chat"
           }
         ],
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MonicaEdaChat.Client.Chat",
+          "Common.TypeName": "MonicaEdaChat.Client.Pages.Chat",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },

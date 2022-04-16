@@ -41,6 +41,39 @@
         }
       },
       {
+        "HashCode": -179691993,
+        "Kind": "Components.Component",
+        "Name": "MonicaEdaChat.Client.Pages.Chat",
+        "AssemblyName": "MonicaEdaChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Chat"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MonicaEdaChat.Client.Pages.Chat"
+        }
+      },
+      {
+        "HashCode": -877153983,
+        "Kind": "Components.Component",
+        "Name": "MonicaEdaChat.Client.Pages.Chat",
+        "AssemblyName": "MonicaEdaChat.Client",
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MonicaEdaChat.Client.Pages.Chat"
+          }
+        ],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "MonicaEdaChat.Client.Pages.Chat",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
         "HashCode": -1514346624,
         "Kind": "Components.Component",
         "Name": "MonicaEdaChat.Client.Pages.Counter",
@@ -318,39 +351,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "MonicaEdaChat.Client.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "HashCode": -164987428,
-        "Kind": "Components.Component",
-        "Name": "MonicaEdaChat.Client.Chat",
-        "AssemblyName": "MonicaEdaChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Chat"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MonicaEdaChat.Client.Chat"
-        }
-      },
-      {
-        "HashCode": -234249983,
-        "Kind": "Components.Component",
-        "Name": "MonicaEdaChat.Client.Chat",
-        "AssemblyName": "MonicaEdaChat.Client",
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MonicaEdaChat.Client.Chat"
-          }
-        ],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "MonicaEdaChat.Client.Chat",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -13067,8 +13067,8 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\Client\\Chat.razor",
-      "TargetPath": "Chat.razor",
+      "FilePath": "c:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\Client\\Pages\\Chat.razor",
+      "TargetPath": "Pages\\Chat.razor",
       "FileKind": "component"
     },
     {

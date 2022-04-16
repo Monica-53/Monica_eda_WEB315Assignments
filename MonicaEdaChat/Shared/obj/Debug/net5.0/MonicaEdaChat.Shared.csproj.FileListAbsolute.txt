@@ -1,0 +1,12 @@
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Shared\bin\Debug\net5.0\MonicaEdaChat.Shared.deps.json
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Shared\bin\Debug\net5.0\MonicaEdaChat.Shared.dll
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Shared\bin\Debug\net5.0\ref\MonicaEdaChat.Shared.dll
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Shared\bin\Debug\net5.0\MonicaEdaChat.Shared.pdb
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Shared\obj\Debug\net5.0\MonicaEdaChat.Shared.csproj.AssemblyReference.cache
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Shared\obj\Debug\net5.0\MonicaEdaChat.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Shared\obj\Debug\net5.0\MonicaEdaChat.Shared.AssemblyInfoInputs.cache
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Shared\obj\Debug\net5.0\MonicaEdaChat.Shared.AssemblyInfo.cs
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Shared\obj\Debug\net5.0\MonicaEdaChat.Shared.csproj.CoreCompileInputs.cache
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Shared\obj\Debug\net5.0\MonicaEdaChat.Shared.dll
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Shared\obj\Debug\net5.0\ref\MonicaEdaChat.Shared.dll
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Shared\obj\Debug\net5.0\MonicaEdaChat.Shared.pdb

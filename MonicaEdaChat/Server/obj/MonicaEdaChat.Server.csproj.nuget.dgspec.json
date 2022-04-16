@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\Server\\MonicaEdaChat.Server.csproj": {}
+    "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\server\\MonicaEdaChat.Server.csproj": {}
   },
   "projects": {
     "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\Client\\MonicaEdaChat.Client.csproj": {
@@ -51,6 +51,10 @@
               "target": "Package",
               "version": "[5.0.12, )"
             },
+            "Microsoft.AspNetCore.SignalR.Client": {
+              "target": "Package",
+              "version": "[5.0.15, )"
+            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -86,14 +90,14 @@
         }
       }
     },
-    "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\Server\\MonicaEdaChat.Server.csproj": {
+    "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\server\\MonicaEdaChat.Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\Server\\MonicaEdaChat.Server.csproj",
+        "projectUniqueName": "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\server\\MonicaEdaChat.Server.csproj",
         "projectName": "MonicaEdaChat.Server",
-        "projectPath": "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\Server\\MonicaEdaChat.Server.csproj",
+        "projectPath": "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\server\\MonicaEdaChat.Server.csproj",
         "packagesPath": "C:\\Users\\edamo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\Server\\obj\\",
+        "outputPath": "C:\\Users\\edamo\\Documents\\GitHub\\Monica_eda_WEB315Assignments\\MonicaEdaChat\\server\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\edamo\\AppData\\Roaming\\NuGet\\NuGet.Config"

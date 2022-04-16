@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\edamo\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\edamo\\.nuget\\packages"
+    ]
+  }
+}
