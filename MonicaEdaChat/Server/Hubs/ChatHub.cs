@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.SignalR;
 
-namespace BlazorWebAssemblySignalRApp.Server.Hubs
+namespace MonicaEdaChat.Server.Hubs
 {
     public class ChatHub : Hub
     {
@@ -10,5 +10,13 @@ namespace BlazorWebAssemblySignalRApp.Server.Hubs
         {
             await Clients.All.SendAsync("ReceiveMessage", user, message);
         }
+
+        
+        public async Task SendMessagetoCaller(string user, string message)
+        {
+            await Clients.Others.SendAsync("ReceiveMessage", user, message);
+        }
+            
     }
 }
+

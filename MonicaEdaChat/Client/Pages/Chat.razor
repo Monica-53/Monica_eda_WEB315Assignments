@@ -15,6 +15,7 @@
         <input @bind="messageInput" size="50" />
     </label>
 </div>
+
 <button @onclick="Send" disabled="@(!IsConnected)">Send</button>
 
 <hr>
@@ -25,6 +26,7 @@
         <li>@message</li>
     }
 </ul>
+
 
 @code {
     private HubConnection hubConnection;
@@ -50,7 +52,7 @@
 
     async Task Send() =>
         await hubConnection.SendAsync("SendMessage", userInput, messageInput);
-
+  
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;
 
@@ -61,4 +63,11 @@
             await hubConnection.DisposeAsync();
         }
     }
+
 }
+
+
+
+  
+
+

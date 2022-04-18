@@ -1,4 +1,4 @@
-using BlazorWebAssemblySignalRApp.Server.Hubs;
+using MonicaEdaChat.Server.Hubs;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Hosting;

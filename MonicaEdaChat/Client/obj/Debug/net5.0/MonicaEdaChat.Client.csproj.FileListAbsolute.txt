@@ -660,3 +660,4 @@ C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Clien
 C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Client\obj\Debug\net5.0\MonicaEdaChat.Client.pdb
 C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Chat.razor.g.cs
 C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Client\obj\Debug\net5.0\Razor\Pages\Chat.razor.g.cs
+C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Client\obj\Debug\net5.0\scopedcss\Pages\Chat.razor.rz.scp.css

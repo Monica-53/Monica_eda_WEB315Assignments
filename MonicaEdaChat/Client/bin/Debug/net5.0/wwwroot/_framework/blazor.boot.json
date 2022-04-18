@@ -204,12 +204,12 @@
       "netstandard.dll": "sha256-dOHF0zANIyA4WS496iWrAkTuEFWSWrXJjZj2pQQHrMA=",
       "System.Private.CoreLib.dll": "sha256-C96+zv+mWW0XzMG520oRgAG1lHVY8xzWGc6oc6rFjws=",
       "MonicaEdaChat.Shared.dll": "sha256-UPCaWYE6WAkZc3ISRGjppCSZIvx7QDg6aZCoIZwCX4U=",
-      "MonicaEdaChat.Client.dll": "sha256-xZW1DopeQpis7qHUi6s5wi4IfuDelqkpPFHmUOeDP4o="
+      "MonicaEdaChat.Client.dll": "sha256-RIaQc00k+FNktSSiBxpo8SVRLDM9AKI5JuuVGzYdGZI="
     },
     "lazyAssembly": null,
     "pdb": {
       "MonicaEdaChat.Shared.pdb": "sha256-J1w4U1yinFTy2PQMSj9XhL1B493ps2l86XIPvaHMnsQ=",
-      "MonicaEdaChat.Client.pdb": "sha256-u4lOmgTglnNbe7fWB8ANXMZt3BP5GYDGneC5rWvn2hg="
+      "MonicaEdaChat.Client.pdb": "sha256-nebmSQD6XI\/5YmvCIQKD4gZ5COpSUZ\/iQj\/NALK9Nt4="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-ir9YCVnnk7popgsYUkvitfGA4WpkP1ydPh\/ENHnxGys=",

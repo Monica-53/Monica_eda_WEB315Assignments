@@ -98,7 +98,7 @@ using Microsoft.AspNetCore.SignalR.Client;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 29 "C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Client\Pages\Chat.razor"
+#line 31 "C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Client\Pages\Chat.razor"
        
     private HubConnection hubConnection;
     private List<string> messages = new List<string>();
@@ -123,7 +123,7 @@ using Microsoft.AspNetCore.SignalR.Client;
 
     async Task Send() =>
         await hubConnection.SendAsync("SendMessage", userInput, messageInput);
-
+        
     public bool IsConnected =>
         hubConnection.State == HubConnectionState.Connected;
 
@@ -134,6 +134,7 @@ using Microsoft.AspNetCore.SignalR.Client;
             await hubConnection.DisposeAsync();
         }
     }
+
 
 #line default
 #line hidden

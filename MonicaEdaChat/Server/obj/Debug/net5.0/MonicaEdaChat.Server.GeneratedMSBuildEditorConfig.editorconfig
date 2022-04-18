@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = MonicaEdaChat.Server
-build_property.ProjectDir = c:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\Server\
+build_property.ProjectDir = C:\Users\edamo\Documents\GitHub\Monica_eda_WEB315Assignments\MonicaEdaChat\server\
